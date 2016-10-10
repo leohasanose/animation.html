@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <svg width="7500" height="5000">
+    <h1 >Important</h1>
+    <p>Find the right square to reveal the overlord. He was chosen by the recorder named EBMARAH.</p>
+    <svg width="700" height="800">
       <!-- first row -->
   <rect x="0" y="50" width="50" height="50" fill="grey">
 
@@ -78,10 +79,9 @@
   <animate attributeName="fill" from="grey" to="red" begin="click" dur="1s" id="rectangle-animation"/>
   </rect>
 
-<rect x="300" y="250" width="50" height="50" fill="grey">
+<!-- the special square that reveals the overlord -->
+<image x="300" y="250" width="50" height="50" xlink:href="http://image.made-in-china.com/2f0j00RvKQwVtGEdcy/Gray-High-Gloss-Powder-Coating.jpg"/>
 
-<animate attributeName="fill" from="grey" to="green" begin="click" dur="1s" id="rectangle-animation"/>
-</rect>
 
 
 
@@ -134,18 +134,22 @@
   <animate attributeName="fill" from="grey" to="red" begin="click" dur="1s" id="rectangle-animation"/>
   </rect>
 
-  <image x="25" y="25" width="150" height="150" xlink:href="http://www.worstpreviews.com/images/headlines/headline7793.jpg"/>
+
+  <line x1="350" y1="650" x2="475" y2="475" stroke="green" stroke-width="15">
+      <animate attributeName="y1" from="120" to="200" dur="6s" repeatCount="indefinite"/>
+    </line>
 
 
+    <circle cx="100" cy="150" r="55" fill="orange">
+        <animate attributeName="cx" from="100" to="500" dur="5s" id="circle-animation" repeatCount="indefinite"/>
+    </circle>
 
 
-
-
-
-
+<ellipse cx="150" cy=50" rx="10" ry="500" fill="blue" fill-opacity="0.40">
+<animate attributeName="cy" from="50" to="500" dur="3s" id="circle-animation" repeatCount="indefinite">
+</elipse>
     </svg>
-<h1 color:"white">Important</h1>
-<p>Find the right square to reveal the overlord</p>
+
 
   </body>
 </html>

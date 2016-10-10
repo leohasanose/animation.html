@@ -1,5 +1,22 @@
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
+
 body {
 
-background:
-black;
+    background-image: url("file:///C:/Users/Student/Downloads/headline7793.svg");
+
 }
+
+
+
+h1{
+  color: red;
+font-family:Montserrat; }
+
+
+
+
+p{color: red;
+font-family:Montserrat;}
